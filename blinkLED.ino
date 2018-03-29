@@ -2,9 +2,9 @@
 
 	#include <Wire.h>
 //#Defines
-	#define PCF857X B00100000  // Adresse des PCF8574 hier: PCF8574P mit allen 3 Adress-Pins nach Masse
-	#define AN B00000000
-	#define AUS B11111111
+	#define PCF857X B00100000  	// Adresse des PCF8574 hier: PCF8574P mit allen 3 Adress-Pins nach Masse
+	#define AN B00000000		// 0 on
+	#define AUS B11111111 		// 1 off
 		//		 |||||||^  --- Pin0 LEDRotBig
 		//		 ||||||^   --- Pin1 LEDRot1
 		//		 |||||^    --- Pin2 LEDRot2
