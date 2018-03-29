@@ -14,14 +14,14 @@
 		//		 |^        --- Pin6 LEDGruen1
 		//		 ^         --- Pin7 LEDOrange
 
-	#define LEDBlau 
-	#define LEDOrange 
-	#define	LEDGruenBig 
-	#define	LEDRotBig 
-	#define LEDRot1 
-	#define	LEDRot2 
-	#define	LEDGruen1 
-	#define LEDGruen2 
+	static const int LEDBlau = 3;
+	static const int LEDOrange = 7;
+	static const int LEDGruenBig = 4;
+	static const int LEDRotBig = 0;
+	static const int LEDRot1 = 1;
+	static const int LEDRot2 = 2;
+	static const int LEDGruen1 = 6;
+	static const int LEDGruen2 = 5;
 //Setup
 	void setup(void) {
 		Serial.begin(74880);
